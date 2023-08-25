@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_HomePage,Chrome 116.0.0.0,,,2023-08-25 12:34:41,2023-08-25 12:34:52,10.909s,PASSED
+,,,,,,,
+Test Cases/PetStore2_HomePage/Verify_HomePage,Chrome 116.0.0.0,,,2023-08-25 12:34:41,2023-08-25 12:34:52,10.561s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-25 12:34:42,2023-08-25 12:34:44,2.697s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 116.0.0.0,,,2023-08-25 12:34:44,2023-08-25 12:34:45,0.831s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:45,2023-08-25 12:34:46,0.532s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""))",Chrome 116.0.0.0,,,2023-08-25 12:34:46,2023-08-25 12:34:47,1.216s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:47,2023-08-25 12:34:47,0.497s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:47,2023-08-25 12:34:48,0.471s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:48,2023-08-25 12:34:48,0.493s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:48,2023-08-25 12:34:49,0.451s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:49,2023-08-25 12:34:49,0.475s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:49,2023-08-25 12:34:50,0.525s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:50,2023-08-25 12:34:50,0.468s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts""), 0)",Chrome 116.0.0.0,,,2023-08-25 12:34:50,2023-08-25 12:34:51,0.510s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-25 12:34:51,2023-08-25 12:34:52,0.773s,PASSED
