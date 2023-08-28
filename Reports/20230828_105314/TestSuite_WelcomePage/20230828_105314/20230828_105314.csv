@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_WelcomePage,MacOS - Safari 16,,,2023-08-28 10:53:22,2023-08-28 10:58:16,4m - 53.796s,FAILED
+,,,,,,,
+Test Cases/PetStore2_WelcomePage/Verify_WelcomePage,MacOS - Safari 16,,,2023-08-28 10:57:20,2023-08-28 10:58:16,56.086s,FAILED
+"openBrowser("""")",MacOS - Safari 16,,,2023-08-28 10:57:20,2023-08-28 10:58:10,50.339s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",MacOS - Safari 16,,,2023-08-28 10:58:10,2023-08-28 10:58:11,1.038s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/h2_Welcome to JPetStore 6""), 0)",MacOS - Safari 16,,,2023-08-28 10:58:11,2023-08-28 10:58:12,1.226s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/sub_Copyright www.mybatis.org""), ""Copyright www.mybatis.org"")",MacOS - Safari 16,,,2023-08-28 10:58:12,2023-08-28 10:58:16,3.463s,FAILED

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_HomePage" time="75.713" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite_HomePage" tests="1" failures="0" errors="0" time="75.713" skipped="0" timestamp="2023-08-28 10:25:35" hostname="VeereshS - VEERESHS.emids.local" id="Test Suites/TestSuite_HomePage">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230828_102515\\TestSuite_HomePage\\20230828_102515"/>
+         <property name="logFiles" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230828_102515\\TestSuite_HomePage\\20230828_102515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VeereshS - VEERESHS.emids.local"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:52546&quot;
+  },
+  &quot;requestId&quot;: &quot;28fb8dc2-2c78-4f77-b380-74a7a8d1399b&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;114.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1292133,
+    &quot;organizationId&quot;: &quot;1239424&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;114.0.5735.16 (7e1ff058633f5b79b1cd7479aca585ba385519d8-refs/branch-heads/5735@{#182})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Users\\ltuser\\AppData\\Local\\Temp\\scoped_dir3584_29099293&quot;
+  },
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;***:loadExtension&quot;: [
+    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;
+  ],
+  &quot;version&quot;: &quot;114&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.89.125:4444/session/3e4ca48ff9c302abfa22fa3d33185bfb/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;3e4ca48ff9c302abfa22fa3d33185bfb&quot;,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.113"/>
+         <property name="sessionId" value="3e4ca48ff9c302abfa22fa3d33185bfb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PetStore2_HomePage/Verify_HomePage" time="75.401" classname="Test Cases/PetStore2_HomePage/Verify_HomePage" status="PASSED">
+         <system-out><![CDATA[2023-08-28 10:25:36 - [TEST_CASE][PASSED] - Test Cases/PetStore2_HomePage/Verify_HomePage: Test Cases/PetStore2_HomePage/Verify_HomePage
+
+2023-08-28 10:25:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-28 10:25:37 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-08-28 10:25:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-08-28 10:25:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', '114']
+
+2023-08-28 10:25:37 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1239424, tunnelId=, usingTunnel=false}']
+
+2023-08-28 10:25:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-08-28 10:25:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 10:26:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-28 10:26:26 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-28 10:26:27 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-28 10:26:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+2023-08-28 10:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+2023-08-28 10:26:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/a_Sign In"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Sign In' is present
+
+2023-08-28 10:26:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Sign In' is present
+
+2023-08-28 10:26:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/a_Sign In"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Sign In' is present
+
+2023-08-28 10:26:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/a_Sign In' is present
+
+2023-08-28 10:26:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/img"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/img' is present
+
+2023-08-28 10:26:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:39 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/img' is present
+
+2023-08-28 10:26:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/img_1"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1' is present
+
+2023-08-28 10:26:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1' is present
+
+2023-08-28 10:26:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/img_1_2"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2' is present
+
+2023-08-28 10:26:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2' is present
+
+2023-08-28 10:26:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3' is present
+
+2023-08-28 10:26:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3' is present
+
+2023-08-28 10:26:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4' is present
+
+2023-08-28 10:26:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4' is present
+
+2023-08-28 10:26:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts"), 0): Object 'Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts' is present
+
+2023-08-28 10:26:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts' is present
+
+2023-08-28 10:26:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-28 10:26:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-28 10:25:35 - [TEST_SUITE][PASSED] - TestSuite_HomePage: Test Cases/PetStore2_HomePage/Verify_HomePage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSHomeNew,Edge Chromium 116,,,2023-08-28 13:20:12,2023-08-28 13:20:22,10.147s,PASSED
+,,,,,,,
+Test Cases/PetStore2_HomePage/Verify_HomePage,Edge Chromium 116,,,2023-08-28 13:20:12,2023-08-28 13:20:22,9.927s,PASSED
+"openBrowser("""")",Edge Chromium 116,,,2023-08-28 13:20:12,2023-08-28 13:20:15,2.986s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 116,,,2023-08-28 13:20:15,2023-08-28 13:20:16,0.730s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""), 0)",Edge Chromium 116,,,2023-08-28 13:20:16,2023-08-28 13:20:17,0.543s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 116,,,2023-08-28 13:20:17,2023-08-28 13:20:18,1.196s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",Edge Chromium 116,,,2023-08-28 13:20:18,2023-08-28 13:20:18,0.427s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",Edge Chromium 116,,,2023-08-28 13:20:18,2023-08-28 13:20:19,0.446s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img""), 0)",Edge Chromium 116,,,2023-08-28 13:20:19,2023-08-28 13:20:19,0.418s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1""), 0)",Edge Chromium 116,,,2023-08-28 13:20:19,2023-08-28 13:20:20,0.454s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2""), 0)",Edge Chromium 116,,,2023-08-28 13:20:20,2023-08-28 13:20:20,0.388s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3""), 0)",Edge Chromium 116,,,2023-08-28 13:20:20,2023-08-28 13:20:20,0.412s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4""), 0)",Edge Chromium 116,,,2023-08-28 13:20:20,2023-08-28 13:20:21,0.393s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts""), 0)",Edge Chromium 116,,,2023-08-28 13:20:21,2023-08-28 13:20:21,0.409s,PASSED
+closeBrowser(),Edge Chromium 116,,,2023-08-28 13:20:21,2023-08-28 13:20:22,0.823s,PASSED

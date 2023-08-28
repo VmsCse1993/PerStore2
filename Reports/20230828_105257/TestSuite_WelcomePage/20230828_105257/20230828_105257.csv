@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_WelcomePage,MacOS - Edge Chromium 111,,,2023-08-28 10:53:17,2023-08-28 10:55:10,1m - 52.777s,PASSED
+,,,,,,,
+Test Cases/PetStore2_WelcomePage/Verify_WelcomePage,MacOS - Edge Chromium 111,,,2023-08-28 10:53:18,2023-08-28 10:55:10,1m - 52.365s,PASSED
+"openBrowser("""")",MacOS - Edge Chromium 111,,,2023-08-28 10:53:18,2023-08-28 10:54:57,1m - 38.984s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",MacOS - Edge Chromium 111,,,2023-08-28 10:54:57,2023-08-28 10:54:58,1.298s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/h2_Welcome to JPetStore 6""), 0)",MacOS - Edge Chromium 111,,,2023-08-28 10:54:58,2023-08-28 10:55:01,2.503s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/sub_Copyright www.mybatis.org""), ""Copyright www.mybatis.org"")",MacOS - Edge Chromium 111,,,2023-08-28 10:55:01,2023-08-28 10:55:04,3.042s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store""), 0)",MacOS - Edge Chromium 111,,,2023-08-28 10:55:04,2023-08-28 10:55:06,2.382s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store""), 0)",MacOS - Edge Chromium 111,,,2023-08-28 10:55:06,2023-08-28 10:55:09,2.410s,PASSED
+closeBrowser(),MacOS - Edge Chromium 111,,,2023-08-28 10:55:09,2023-08-28 10:55:10,1.126s,PASSED

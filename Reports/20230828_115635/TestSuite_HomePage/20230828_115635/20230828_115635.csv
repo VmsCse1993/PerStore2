@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_HomePage,MacOS - Safari 16,,,2023-08-28 11:56:46,2023-08-28 11:58:21,1m - 34.777s,PASSED
+,,,,,,,
+Test Cases/PetStore2_HomePage/Verify_HomePage,MacOS - Safari 16,,,2023-08-28 11:56:46,2023-08-28 11:58:21,1m - 34.542s,PASSED
+"openBrowser("""")",MacOS - Safari 16,,,2023-08-28 11:56:47,2023-08-28 11:57:58,1m - 11.008s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",MacOS - Safari 16,,,2023-08-28 11:57:58,2023-08-28 11:58:01,3.213s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:01,2023-08-28 11:58:02,1.631s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Enter the Store""))",MacOS - Safari 16,,,2023-08-28 11:58:02,2023-08-28 11:58:05,2.457s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:05,2023-08-28 11:58:07,2.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/a_Sign In""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:07,2023-08-28 11:58:09,1.726s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:09,2023-08-28 11:58:10,1.656s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:10,2023-08-28 11:58:12,1.680s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:12,2023-08-28 11:58:14,1.934s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:14,2023-08-28 11:58:16,1.744s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/img_1_2_3_4""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:16,2023-08-28 11:58:17,1.513s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/HomePage/Page_JPetStore Demo/input__searchProducts""), 0)",MacOS - Safari 16,,,2023-08-28 11:58:17,2023-08-28 11:58:19,1.576s,PASSED
+closeBrowser(),MacOS - Safari 16,,,2023-08-28 11:58:19,2023-08-28 11:58:21,1.793s,PASSED

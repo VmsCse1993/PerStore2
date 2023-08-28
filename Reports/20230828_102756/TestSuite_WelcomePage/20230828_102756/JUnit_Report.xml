@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_WelcomePage" time="67.551" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite_WelcomePage" tests="1" failures="0" errors="0" time="67.551" skipped="0" timestamp="2023-08-28 10:28:05" hostname="VeereshS - VEERESHS.emids.local" id="Test Suites/TestSuite_WelcomePage">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230828_102756\\TestSuite_WelcomePage\\20230828_102756"/>
+         <property name="logFiles" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230828_102756\\TestSuite_WelcomePage\\20230828_102756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VeereshS - VEERESHS.emids.local"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;MAC&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:50263&quot;
+  },
+  &quot;requestId&quot;: &quot;dc3d0463-19d3-401c-ada0-5de47dd1f506&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;114.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1292133,
+    &quot;organizationId&quot;: &quot;1239424&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;MAC&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;114.0.5735.16 (7e1ff058633f5b79b1cd7479aca585ba385519d8-refs/branch-heads/5735@{#182})&quot;,
+    &quot;userDataDir&quot;: &quot;/var/folders/d8/dscclt050djgrrxc4njssnzh0000gp/T/.com.google.Chrome.SOIN3t&quot;
+  },
+  &quot;os&quot;: &quot;macos&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;***:loadExtension&quot;: [
+    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;
+  ],
+  &quot;version&quot;: &quot;114&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.108.166:4444/session/31ca67eae25b46f55317576975d845f1/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;31ca67eae25b46f55317576975d845f1&quot;,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="MacOS"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.113"/>
+         <property name="sessionId" value="31ca67eae25b46f55317576975d845f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PetStore2_WelcomePage/Verify_WelcomePage" time="66.961" classname="Test Cases/PetStore2_WelcomePage/Verify_WelcomePage" status="PASSED">
+         <system-out><![CDATA[2023-08-28 10:28:06 - [TEST_CASE][PASSED] - Test Cases/PetStore2_WelcomePage/Verify_WelcomePage: Test Cases/PetStore2_WelcomePage/Verify_WelcomePage
+
+2023-08-28 10:28:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-28 10:28:06 - [MESSAGE][INFO] - User set preference: ['os', 'macos']
+
+2023-08-28 10:28:06 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-08-28 10:28:06 - [MESSAGE][INFO] - User set preference: ['browserVersion', '114']
+
+2023-08-28 10:28:06 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1239424, tunnelId=, usingTunnel=false}']
+
+2023-08-28 10:28:06 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-08-28 10:28:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-28 10:28:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-28 10:28:59 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-28 10:29:00 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-28 10:29:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/WelcomePage/Page_JPetStore Demo/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/WelcomePage/Page_JPetStore Demo/h2_Welcome to JPetStore 6' is present
+
+2023-08-28 10:29:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:29:03 - [MESSAGE][PASSED] - Object 'Object Repository/WelcomePage/Page_JPetStore Demo/h2_Welcome to JPetStore 6' is present
+
+2023-08-28 10:29:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WelcomePage/Page_JPetStore Demo/sub_Copyright www.mybatis.org"), "Copyright www.mybatis.org"): Actual text and expected text of test object 'Object Repository/WelcomePage/Page_JPetStore Demo/sub_Copyright www.mybatis.org' are matched.
+
+2023-08-28 10:29:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WelcomePage/Page_JPetStore Demo/sub_Copyright www.mybatis.org' are matched.
+
+2023-08-28 10:29:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:29:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:29:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/WelcomePage/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-28 10:29:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-28 10:29:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-28 10:28:05 - [TEST_SUITE][PASSED] - TestSuite_WelcomePage: Test Cases/PetStore2_WelcomePage/Verify_WelcomePage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
