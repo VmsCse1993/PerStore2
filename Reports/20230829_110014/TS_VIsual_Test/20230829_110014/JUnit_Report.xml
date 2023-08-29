@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_VIsual_Test" time="8.372" tests="1" failures="0" errors="0">
+   <testsuite name="TS_VIsual_Test" tests="1" failures="0" errors="0" time="8.372" skipped="0" timestamp="2023-08-29 11:00:23" hostname="VeereshS - VEERESHS.emids.local" id="Test Suites/TS_VIsual_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230829_110014\\TS_VIsual_Test\\20230829_110014"/>
+         <property name="logFiles" value="C:\\Users\\VEERESHS\\git\\PerStore2\\Reports\\20230829_110014\\TS_VIsual_Test\\20230829_110014\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Home_ScreenShot.png"/>
+         <property name="hostName" value="VeereshS - VEERESHS.emids.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.113"/>
+         <property name="sessionId" value="919e71e3a74ae418a4cc724604ec695e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VisualTest_TC_Cat_Nav" time="8.006" classname="Test Cases/VisualTest_TC_Cat_Nav" status="PASSED">
+         <system-out><![CDATA[2023-08-29 11:00:23 - [TEST_CASE][PASSED] - Test Cases/VisualTest_TC_Cat_Nav: Test Cases/VisualTest_TC_Cat_Nav
+
+2023-08-29 11:00:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 11:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-29 11:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 11:00:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 11:00:26 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-29 11:00:27 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+2023-08-29 11:00:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-29 11:00:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 11:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store' is present
+
+2023-08-29 11:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+2023-08-29 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+2023-08-29 11:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visualtest/Page_JPetStore Demo/img")): Object: 'Object Repository/visualtest/Page_JPetStore Demo/img' is clicked on
+
+2023-08-29 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/visualtest/Page_JPetStore Demo/img' is clicked on
+
+2023-08-29 11:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/visualtest/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/visualtest/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+2023-08-29 11:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/visualtest/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+2023-08-29 11:00:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Home_ScreenShot"): Taking screenshot successfully
+
+2023-08-29 11:00:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-29 11:00:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Home_ScreenShot.png]]
+
+2023-08-29 11:00:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 11:00:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-29 11:00:23 - [TEST_SUITE][PASSED] - TS_VIsual_Test: Test Cases/VisualTest_TC_Cat_Nav]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

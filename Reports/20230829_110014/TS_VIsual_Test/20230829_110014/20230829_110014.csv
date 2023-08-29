@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_VIsual_Test,Chrome 116.0.0.0,,,2023-08-29 11:00:23,2023-08-29 11:00:31,8.372s,PASSED
+,,,,,,,
+Test Cases/VisualTest_TC_Cat_Nav,Chrome 116.0.0.0,,,2023-08-29 11:00:23,2023-08-29 11:00:31,8.006s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-29 11:00:24,2023-08-29 11:00:26,2.387s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 116.0.0.0,,,2023-08-29 11:00:26,2023-08-29 11:00:27,0.703s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store""), 0)",Chrome 116.0.0.0,,,2023-08-29 11:00:27,2023-08-29 11:00:27,0.441s,PASSED
+"click(findTestObject(""Object Repository/visualtest/Page_JPetStore Demo/a_Enter the Store""))",Chrome 116.0.0.0,,,2023-08-29 11:00:27,2023-08-29 11:00:29,1.101s,PASSED
+"click(findTestObject(""Object Repository/visualtest/Page_JPetStore Demo/img""))",Chrome 116.0.0.0,,,2023-08-29 11:00:29,2023-08-29 11:00:29,0.724s,PASSED
+"click(findTestObject(""Object Repository/visualtest/Page_JPetStore Demo/a_Return to Main Menu""))",Chrome 116.0.0.0,,,2023-08-29 11:00:29,2023-08-29 11:00:30,0.713s,PASSED
+"takeScreenshotAsCheckpoint(""Home_ScreenShot"")",Chrome 116.0.0.0,,,2023-08-29 11:00:30,2023-08-29 11:00:31,0.820s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-29 11:00:31,2023-08-29 11:00:31,0.689s,PASSED
